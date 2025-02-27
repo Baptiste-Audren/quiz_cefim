@@ -1,0 +1,89 @@
+/* FONTS */
+@font-face {
+    font-family: 'baptiste_title';
+    src: url('fonts/dist_mus.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#baptisteQuiz_title{
+    font-family: 'baptiste_title', sans-serif;
+    font-size: 40px;
+}
+
+/* ------ */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#baptisteQuiz_quizContainer {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Propositions de réponses */
+#baptisteQuiz_answersContainer{
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+/* Boîte pour les erreurs */
+#baptisteQuiz_errorMessage {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgba(255, 100, 118, 0.516);
+    border: solid 1px rgba(239, 40, 63, 0.623);
+    border-radius: 10px;
+    display: none;
+}
+
+/* Boutons */
+#baptisteQuiz_nextButton {
+    display: none;
+}
+#baptisteQuiz_restartButton {
+    display: none;
+}
+#baptisteQuiz_correctionButton {
+    display: none;
+    margin-bottom: 25px;
+}
+
+/* Conteneur de la correction */
+#baptisteQuiz_correction {
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+    display: none;
+}
+
+/* Résultat du test */
+.baptisteQuiz.result.main {
+    margin-bottom: 20px;
+}
+.baptisteQuiz.result.question {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.baptisteQuiz.result.answer {
+    color: black;
+}
+.baptisteQuiz.result.answer.good {
+    color: green;
+    font-weight: bold;
+}
+.baptisteQuiz.result.answer.bad {
+    color: red;
+    font-weight: bold;
+}

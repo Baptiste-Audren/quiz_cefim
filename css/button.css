@@ -1,0 +1,497 @@
+:root {
+    --buttonTransitionSpeed: 0.2s;
+}
+
+
+/* classic */
+.baptiste.button.classic {
+    border: none;
+    border-radius: 0.28571429rem;
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+    color: white;
+    padding: 10px 25px;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity var(--buttonTransitionSpeed) ease, background-color var(--buttonTransitionSpeed) ease, color var(--buttonTransitionSpeed) ease, box-shadow var(--buttonTransitionSpeed) ease, background var(--buttonTransitionSpeed) ease;
+    font-family: "Lato", system-ui, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+}
+
+.baptiste.button.classic.theme {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(117, 117, 117) inset;
+    color: rgb(117, 117, 117);
+}
+.baptiste.button.classic.theme:hover {
+    background-color: rgb(117, 117, 117);
+    color: white;
+}
+
+body.dark-theme .baptiste.button.classic.theme {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(254, 254, 254) inset;
+    color: rgb(254, 254, 254);
+}
+body.dark-theme .baptiste.baptiste.button.classic.theme:hover {
+    background-color: rgb(254, 254, 254);
+    color: rgb(36, 36, 36);
+}
+
+
+/* DARK RED */
+.baptiste.button.classic.dark-red {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(175, 5, 5) inset;
+    color: rgb(175, 5, 5);
+}
+.baptiste.baptiste.button.classic.dark-red:hover {
+    background-color: rgb(175, 5, 5);
+    color: white;
+}
+
+.baptiste.button.classic.gdev {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(45,38,160) inset;
+    color: rgb(45,38,160);
+}
+.baptiste.baptiste.button.classic.gdev:hover {
+    background-color: rgb(45,38,160);
+    color: white;
+}
+
+/* RED */
+.baptiste.button.classic.red {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(220, 0, 0) inset;
+    color: rgb(220, 0, 0);
+}
+.baptiste.baptiste.button.classic.red:hover {
+    background-color: rgb(220, 0, 0);
+    color: white;
+}
+
+/* ORANGE */
+.baptiste.button.classic.orange {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(235, 125, 0) inset;
+    color: rgb(235, 125, 0);
+}
+.baptiste.baptiste.button.classic.orange:hover {
+    background-color: rgb(235, 125, 0);
+    color: white;
+}
+
+/* DARK GREEN */
+.baptiste.button.classic.dark-green {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(10, 123, 4) inset;
+    color: rgb(10, 123, 4);
+}
+.baptiste.baptiste.button.classic.dark-green:hover {
+    background-color: rgb(10, 123, 4);
+    color: white;
+}
+
+/* GREEN */
+.baptiste.button.classic.green {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(13, 206, 3) inset;
+    color: rgb(13, 206, 3);
+}
+.baptiste.baptiste.button.classic.green:hover {
+    background-color: rgb(13, 206, 3);
+    color: white;
+}
+
+/* DARK BLUE */
+.baptiste.button.classic.dark-blue {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(0, 5, 150) inset;
+    color: rgb(0, 5, 150);
+}
+.baptiste.baptiste.button.classic.dark-blue:hover {
+    background-color: rgb(0, 5, 150);
+    color: white;
+}
+
+/* BLUE */
+.baptiste.button.classic.blue {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(12, 101, 235) inset;
+    color: rgb(12, 101, 235);
+}
+.baptiste.baptiste.button.classic.blue:hover {
+    background-color: rgb(12, 101, 235);
+    color: white;
+}
+
+/* CYAN */
+.baptiste.button.classic.cyan {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(0, 230, 255) inset;
+    color: rgb(0, 230, 255);
+}
+.baptiste.baptiste.button.classic.cyan:hover {
+    background-color: rgb(0, 230, 255);
+    color: white;
+}
+
+/* DARK PUPRLE */
+.baptiste.button.classic.dark-purple {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(112, 10, 201) inset;
+    color: rgb(112, 10, 201);
+}
+.baptiste.baptiste.button.classic.dark-purple:hover {
+    background-color: rgb(112, 10, 201);
+    color: white;
+}
+
+/* PUPRLE */
+.baptiste.button.classic.purple {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(182, 42, 232) inset;
+    color: rgb(182, 42, 232);
+}
+.baptiste.baptiste.button.classic.purple:hover {
+    background-color: rgb(182, 42, 232);
+    color: white;
+}
+
+/* PINK */
+.baptiste.button.classic.pink {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(246, 41, 201) inset;
+    color: rgb(246, 41, 201);
+}
+.baptiste.baptiste.button.classic.pink:hover {
+    background-color: rgb(246, 41, 201);
+    color: white;
+}
+
+/* DARK */
+.baptiste.button.classic.dark {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(40, 40, 40) inset;
+    color: rgb(40, 40, 40);
+}
+.baptiste.baptiste.button.classic.dark:hover {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+/* GREY */
+.baptiste.button.classic.grey {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(119, 119, 119) inset;
+    color: rgb(119, 119, 119);
+}
+.baptiste.baptiste.button.classic.grey:hover {
+    background-color: rgb(119, 119, 119);
+    color: white;
+}
+
+/* WHITE */
+.baptiste.button.classic.white {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(254, 254, 254) inset;
+    color: rgb(254, 254, 254);
+}
+.baptiste.baptiste.button.classic.white:hover {
+    background-color: rgb(254, 254, 254);
+    color: rgb(36, 36, 36);
+}
+
+/* LOCHES EN'HARMONIE */
+.baptiste.button.classic.lochesenharmonie {
+    background-color: unset;
+    box-shadow: 0 0 0 2px #0085de inset;
+    color: #0085de;
+}
+.baptiste.button.classic.lochesenharmonie:hover {
+    background-color: #0085de;
+    color: white;
+}
+
+/* PICTURE BUTTON */
+
+.baptiste.button-picture-login {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    padding: 8px 1var(--buttonBorderWidth);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none; 
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.baptiste.button-picture-login:hover {
+    border-color: #999;
+    transform: scale(1.05);
+}
+
+.baptiste.button-picture-login.active  {
+    border: var(--buttonBorderWidth) solid #0085de;
+}
+
+.profile-picture img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+  
+.username {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 15px;
+}
+
+/* ICON */
+.baptiste.button.icon {
+    border: none;
+    border-radius: 0.28571429rem;
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+    color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity var(--buttonTransitionSpeed) ease, background-color var(--buttonTransitionSpeed) ease, color var(--buttonTransitionSpeed) ease, box-shadow var(--buttonTransitionSpeed) ease, background var(--buttonTransitionSpeed) ease;
+    font-family: "Lato", system-ui, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+}
+
+.baptiste.button.icon.theme {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(117, 117, 117) inset;
+    color: rgb(117, 117, 117);
+}
+.baptiste.button.icon.theme:hover {
+    background-color: rgb(117, 117, 117);
+    color: white;
+}
+
+body.dark-theme .baptiste.button.icon.theme {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(254, 254, 254) inset;
+    color: rgb(254, 254, 254);
+}
+body.dark-theme .baptiste.baptiste.button.icon.theme:hover {
+    background-color: rgb(254, 254, 254);
+    color: rgb(36, 36, 36);
+}
+
+
+/* DARK RED */
+.baptiste.button.icon.dark-red {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(175, 5, 5) inset;
+    color: rgb(175, 5, 5);
+}
+.baptiste.baptiste.button.icon.dark-red:hover {
+    background-color: rgb(175, 5, 5);
+    color: white;
+}
+
+/* RED */
+.baptiste.button.icon.red {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(220, 0, 0) inset;
+    color: rgb(220, 0, 0);
+}
+.baptiste.baptiste.button.icon.red:hover {
+    background-color: rgb(220, 0, 0);
+    color: white;
+}
+
+/* DARK GREEN */
+.baptiste.button.icon.dark-green {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(10, 123, 4) inset;
+    color: rgb(10, 123, 4);
+}
+.baptiste.baptiste.button.icon.dark-green:hover {
+    background-color: rgb(10, 123, 4);
+    color: white;
+}
+
+/* GREEN */
+.baptiste.button.icon.green {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(13, 206, 3) inset;
+    color: rgb(13, 206, 3);
+}
+.baptiste.baptiste.button.icon.green:hover {
+    background-color: rgb(13, 206, 3);
+    color: white;
+}
+
+/* DARK BLUE */
+.baptiste.button.icon.dark-blue {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(0, 5, 150) inset;
+    color: rgb(0, 5, 150);
+}
+.baptiste.baptiste.button.icon.dark-blue:hover {
+    background-color: rgb(0, 5, 150);
+    color: white;
+}
+
+/* BLUE */
+.baptiste.button.icon.blue {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(12, 101, 235) inset;
+    color: rgb(12, 101, 235);
+}
+.baptiste.baptiste.button.icon.blue:hover {
+    background-color: rgb(12, 101, 235);
+    color: white;
+}
+
+/* CYAN */
+.baptiste.button.icon.cyan {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(0, 230, 255) inset;
+    color: rgb(0, 230, 255);
+}
+.baptiste.baptiste.button.icon.cyan:hover {
+    background-color: rgb(0, 230, 255);
+    color: white;
+}
+
+/* DARK PUPRLE */
+.baptiste.button.icon.dark-purple {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(112, 10, 201) inset;
+    color: rgb(112, 10, 201);
+}
+.baptiste.baptiste.button.icon.dark-purple:hover {
+    background-color: rgb(112, 10, 201);
+    color: white;
+}
+
+/* PUPRLE */
+.baptiste.button.icon.purple {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(182, 42, 232) inset;
+    color: rgb(182, 42, 232);
+}
+.baptiste.baptiste.button.icon.purple:hover {
+    background-color: rgb(182, 42, 232);
+    color: white;
+}
+
+/* PINK */
+.baptiste.button.icon.pink {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(246, 41, 201) inset;
+    color: rgb(246, 41, 201);
+}
+.baptiste.baptiste.button.icon.pink:hover {
+    background-color: rgb(246, 41, 201);
+    color: white;
+}
+
+/* DARK */
+.baptiste.button.icon.dark {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(40, 40, 40) inset;
+    color: rgb(40, 40, 40);
+}
+.baptiste.baptiste.button.icon.dark:hover {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+/* GREY */
+.baptiste.button.icon.grey {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(119, 119, 119) inset;
+    color: rgb(119, 119, 119);
+}
+.baptiste.baptiste.button.icon.grey:hover {
+    background-color: rgb(119, 119, 119);
+    color: white;
+}
+
+/* WHITE */
+.baptiste.button.icon.white {
+    background-color: unset;
+    box-shadow: 0 0 0 2px rgb(254, 254, 254) inset;
+    color: rgb(254, 254, 254);
+}
+.baptiste.baptiste.button.icon.white:hover {
+    background-color: rgb(254, 254, 254);
+    color: rgb(36, 36, 36);
+}
+
+/* LOCHES EN'HARMONIE */
+.baptiste.button.icon.lochesenharmonie {
+    background-color: unset;
+    box-shadow: 0 0 0 2px #0085de inset;
+    color: #0085de;
+}
+.baptiste.button.icon.lochesenharmonie:hover {
+    background-color: #0085de;
+    color: white;
+}
+
+/* OTHER */
+
+.centered {
+    width: fit-content;
+    display: flex;
+    margin: auto;
+}
+
+button:disabled {
+    box-shadow: 0 0 0 2px #999 inset !important;
+    color: #999 !important;
+}
+
+button:disabled:hover {
+    box-shadow: 0 0 0 2px #999 inset !important;
+    color: #999 !important;
+    background-color: transparent !important;
+    cursor: not-allowed !important;
+}
+
+
+/* QUIZ */
+
+.baptiste.button.quiz.answer {
+    display: block;
+    background-color: #ddd;
+    border: none;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    transition-duration: .15s;
+}
+
+.baptiste.button.quiz.answer.selected {
+    display: block;
+    background-color: #1e84d2;
+    border: none;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: .15s;
+}
+
+
+.baptiste.button.quiz.answer:hover {
+    background-color: #bbb;
+}
+
+.baptiste.button.quiz.answer.selected:hover {
+    background-color: #269efa;
+}

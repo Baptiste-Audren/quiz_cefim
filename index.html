@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz CEFIM |  Baptiste Audren</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
+</head>
+
+<body>
+
+    <div id="baptisteQuiz_quizContainer">
+
+        <h1 id="baptisteQuiz_title">&quiz%</h1>
+
+        <!-- Affichage des erreurs s'il y a -->
+        <span id="baptisteQuiz_errorMessage"></span>
+
+        <!-- Contenu de la question & propositions de réponses -->
+        <div id="baptisteQuiz_questionsContainer">
+            <p id="baptisteQuiz_questionText">Ce quiz porte sur des notions de bases de théorie musicale.</p>
+            <div id="baptisteQuiz_answersContainer"></div>
+        </div>
+
+        <button class="baptiste button classic blue centered" id="baptisteQuiz_nextButton">Suivant</button>
+        <button class="baptiste button classic blue centered" id="baptisteQuiz_startButton">Commencer !</button>
+
+        <!-- Affichage du résultat, tout à la fin du quiz -->
+        <h3 id="baptisteQuiz_score"></h3>
+        <p id="baptisteQuiz_results"></p>
+
+        <!-- Affichage de la correction -->
+        <button class="baptiste button classic green centered" data-state="closed" id="baptisteQuiz_correctionButton">Voir la correction</button>
+        <div id="baptisteQuiz_correction"></div>
+
+        <button class="baptiste button classic orange centered" id="baptisteQuiz_restartButton">Recommencer</button>
+
+    </div>
+
+    <script src="js/questions.js"></script>
+    <script src="js/variables.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/events.js"></script>
+    
+</body>
+
+</html>
